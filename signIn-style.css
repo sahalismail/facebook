@@ -1,0 +1,31 @@
+.Error{
+    display: none;
+}
+
+.er{
+    color: red;
+    margin-left: 45px;
+    margin-top: 0px;
+    margin-bottom: -25px;
+    font-size: 10px;
+}
+
+.ph{
+    margin-left: 72px;
+}
+
+.pass{
+    margin-left: 70px;
+}
+
+.coun{
+    margin-left: 62px;
+}
+
+#countrys{
+    margin-top: 12px;
+}
+
+#password-1{
+    margin-top: 12px;
+}

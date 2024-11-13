@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signIn-style.css">
+    <title>sign-in</title>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h1>Sign in to your account</h1>
+            <form id="signIn_Form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name">
+                <p class="Error er">Please Enter Valid User Name</p>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email">
+                <p class="Error er">Please Enter Valid E-mail </p>
+                <br><br>
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" placeholder="phone">
+                <p class="Error er ph">Please Enter Valid Phone No</p>
+                <br>
+                <br>
+                
+                    
+                 <div>
+                    <label for="gender"> Select Your Gender :</label>
+                    <br>
+                    <label for="male">male</label>
+                    <input type="radio" name="gen" value="male" >
+                
+                    <label for="female">female</label>
+                    <input type="radio" name="gen" value="female">
+                
+                    <label for="other">other</label>
+                    <input type="radio" name="gen" value="other">
+                    <p class="Error er">Please Select Valid Gender</p>
+                </div><br>
+                <div>
+                    <label for="country">Country:</label>
+                    <select name="country" id="countrys">
+                        <option value>"--Please Select Your Country--"</option>
+                        <option value="india">INDIA</option>
+                        <option value="usa">USA</option>
+                        <option value="brazil">BRAZIL</option>
+                        <option value="poland">POLAND</option>
+                        <option value="argentina">ARGENTINA</option>
+                        <option value="germany">GERMANY</option>
+                        <option value="gana">GANA</option>
+                        <option value="china">CHINA</option>
+                        
+                    </select>
+                    <p class="Error er coun">Please Select Valid Country</p>
+                </div><br><br>
+                <div>
+                    <p>choose your hobbies :</p>
+                    <label for="football">Football</label>
+                    <input type="checkbox" name="hobbies" value="football">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" name="hobbies" value="reading">
+                    <label for="Gameing">Gameing</label>
+                    <input type="checkbox" name="hobbies" value="Gameing">
+                    <p class="Error er">Please select Your Hobbies</p>
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password-1" placeholder="password">
+                    <p class="Error er pass">Please Enter Valid Password</p>
+                </div><br>
+                <div>
+                    <button id="save_btn">Save</button>
+                </div>
+
+        
+            
+             </div>
+
+        </div>
+    </div>
+    <script src="./sign-in.js"></script>
+</body>
+</html>
